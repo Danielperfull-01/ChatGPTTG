@@ -2,7 +2,6 @@ require('dotenv').config()
 const { Configuration, OpenAIApi } = require("openai");
 const { getImage, getChat } = require("./Helper/functions");
 const { Telegraf } = require("telegraf");
-const { KeepAlive } = require("./keep_alive")
 
 const configuration = new Configuration({
   apiKey: process.env.API,
