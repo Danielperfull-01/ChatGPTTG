@@ -1,4 +1,4 @@
-const { KeepAlive } = require("./keep_alive")
+
 require('dotenv').config()
 const { Configuration, OpenAIApi } = require("openai");
 const { getImage, getChat } = require("./Helper/functions");
